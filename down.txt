@@ -1,0 +1,29 @@
+Do this before you die:
+1. Endown clone
+2. Logger S3
+3. MS: Typescript create-react-app
+4. France run
+5. Book tickets
+
+
+Improve in Node-logger:
+1. Instead of using Node File I/O use S3 bucket for log files
+2. Distinguish between console log levels (error, warn, info, debug etc)
+3. Daily file rolling, instead of one huge file.
+4. Logs Timestamp 
+5. Consolidation of logs to single POST request to ExpressJS
+6. Cron job to delete logs (NEW)
+7. filters: js-filename + arn + log
+8. Stub like global and file level config in content repo to enable: d
+
+
+
+
+
+Node-Logger:
+
+1. Why required
+2. What it is
+3. How: Code: frontend + backend
+4. Libs: nodemon, winston, daily-rotate, dashboard, aws-sdk
+
