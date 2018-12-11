@@ -1,5 +1,5 @@
 import sum from './src/example'
-import { downlod, upload } from './s3upload' 
+import { upload } from './awsS3upload' 
 
 const result = sum(5, 2);
 

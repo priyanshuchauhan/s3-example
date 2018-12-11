@@ -6,14 +6,17 @@
   "scripts": {
     "babel-node": "babel-node --presets=env",
     "start": "nodemon --exec npm run babel-node -- ./index.js",
-    "build": "babel src -d dist"
+    "buildOld": "babel src -d dist",
+    "build": "rm -rf dist && webpack --mode production --config webpack.config.js"
   },
   "author": "Priyanshu Chauhan",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "nodemon": "^1.18.3"
+    "nodemon": "^1.18.3",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
   },
   "dependencies": {
     "aws-sdk": "^2.373.0",
