@@ -1,9 +1,13 @@
-import sum from './src/example'
-import { upload } from './awsS3upload' 
+// Uncomment for lamda AWS
+// exports.handler = async (event) => {
 
-const result = sum(5, 2);
+    import sum from './src/example'
+    import {
+        upload
+    } from './awsS3upload'
 
-console.log('Result: ', result);
+    const result = sum(5, 2);
 
-upload();
-// downlod();
+    console.log('Result: ', result);
+
+    upload();
