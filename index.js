@@ -1,5 +1,18 @@
-// Uncomment for lamda AWS
-// exports.handler = async (event) => {
+/**
+    Uncomment for lamda AWS
+    exports.handler = function(event, context, callback) {
+        console.log("Hello");
+        const response = {
+             statusCode: 200,
+             headers: {
+                 "x-custom-header" : "my custom header value"
+             },
+             body: "hello lambda"
+         };
+         callback(null, response);
+        // TODO: Move build code here
+     }
+*/
 
     import sum from './src/example'
     import {
