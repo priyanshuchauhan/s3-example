@@ -4,7 +4,7 @@ const path = require('path');
 module.exports = {
   target: "node",
   entry: {
-    app: ["./index.js"]
+    app: ["./lambda.js"]
   },
   output: {
     path: path.resolve(__dirname, "./build"),
