@@ -1,4 +1,3 @@
-'use strict'
 import express from 'express';
 import awsServerlessExpress from 'aws-serverless-express';
 import app from './index';
